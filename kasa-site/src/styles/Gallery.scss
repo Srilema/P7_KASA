@@ -1,0 +1,51 @@
+/*.thumbcard
+    .thumb-img
+    .thumb-overlay*/
+
+.gallery{
+    background-color: $kasaLightGrey;
+    width: 90%;
+    margin:1.5rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    .thumbcard{
+        background-color: $kasared;
+        width: 15rem;
+        height: 15rem;
+        margin: 1rem;
+        position: relative;
+        border-radius: 25px;
+        .thumb-img{
+            height:100%;
+            width:100%;
+            position: absolute;
+            z-index:1;
+            border-radius:25px;
+            img{
+                object-fit:cover;
+                height: 100%;
+                width:100%;
+                border-radius: 25px;
+            }
+        }
+        .thumb-overlay{
+            z-index: 10;
+            border-radius: 25px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background: linear-gradient(0deg, rgba(0,0,0,0.85) 0%, rgba(255,255,255,0) 50%);
+            h4{
+                position:absolute;
+                bottom:0;
+                margin: 1rem;
+                color: white;
+            }
+        }
+    }
+};
+
+

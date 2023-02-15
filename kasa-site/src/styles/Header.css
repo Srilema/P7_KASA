@@ -1,0 +1,37 @@
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 95%;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.heading .headingImage {
+  position: absolute;
+  z-index: 1;
+}
+
+.heading .headingOverlay {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem;
+}
+
+.heading img {
+  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Header.css.map */

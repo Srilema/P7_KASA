@@ -1,0 +1,48 @@
+.locInfos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media(max-width:420px){
+        flex-direction:column;
+    };
+    .titles{
+        padding:0.5rem;
+        color:$kasared;
+    };
+    .host{
+        @media(max-width:420px){
+            display:flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+        .hostProfile{
+            display: flex;
+            flex-direction: row;
+            img{
+                padding:1rem;
+                border-radius: 5rem;
+                height:6rem;
+                @media(max-width:420px){
+                    height:4rem;
+                }
+            }
+            .hostName{
+                width: min-content;
+                color:$kasared;
+                display: flex;
+                align-items: center;
+                font-size: x-large;
+                @media(max-width:420px){
+                    font-size:large;
+                }
+            }
+        }
+    }
+}
+.dropContainer{
+    display: flex;
+    flex-direction: row;
+    @media(max-width:420px){
+        flex-direction:column;
+    }
+}

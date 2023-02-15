@@ -1,0 +1,25 @@
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  color: #ffffff;
+  padding: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer img {
+  -webkit-filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(200%) contrast(103%);
+          filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(200%) contrast(103%);
+  width: 7rem;
+}
+/*# sourceMappingURL=Footer.css.map */

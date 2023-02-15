@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+@import "Variables";
+@import "Banner";
+@import "Gallery";
+@import "Dropdown";
+@import "Error";
+@import "Carrousel";
+@import "Location";
+@import "Footer";
+@import "Heading";
+@import "About";
+@import "Rating";
+
+//style pour tags
+.tagline{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  .tag{
+    background-color: $kasared;
+    color:white;
+    border-radius: 3rem;
+    padding:0.5rem;
+    margin:0.5rem;
+    text-align:center;
+    min-width:3.5rem;
+  }
+}

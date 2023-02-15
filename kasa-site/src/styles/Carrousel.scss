@@ -1,0 +1,42 @@
+.carrousel{
+    overflow:hidden;
+    position: relative;
+    border-radius: 1.5rem;
+    margin: 0rem 1rem 0rem 1rem;
+    @media(max-width:420px){
+        height:20rem;
+    }
+    .carrouselNavUp{
+        position:absolute;
+        z-index: 100;
+        right:1rem;
+        top:50%;
+        font-size: xxx-large;
+        color:white;
+    }
+    .carrouselNavDown{
+        position:absolute;
+        z-index: 100;
+        top:50%;
+        left:1rem;
+        font-size: xxx-large;
+        color:white;
+    }
+    .innerCarrousel{
+        white-space: nowrap;
+        transition: transform 0.3s;
+        width:100%;
+        .imageCarrousel{
+            display:inline-flex;
+            align-items:center;
+            justify-content: center;
+            height:25rem;
+            width:100%;
+            img{
+                height:100%;
+                width:100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

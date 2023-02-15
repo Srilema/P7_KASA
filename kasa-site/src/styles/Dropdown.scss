@@ -1,0 +1,35 @@
+.dropdown{
+    margin: 1rem;
+    width:95%;
+    cursor: pointer;
+    @media(max-width:420px){
+        width:90%;
+    }
+    .drop-title{
+        background-color: $kasared;
+        color:white;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        padding: 0rem 1rem 0rem 1rem;
+        border-radius:1rem;
+        line-height:0.5rem;
+    }
+    .drop-title-arrow{
+        position:absolute;
+        top: 0.5rem;
+        right:3rem;
+        font-size:xx-large;
+        @media(max-width:420px){
+            right:1.5rem;
+        }
+    }
+    .drop-text{
+        background-color: $kasaLightGrey;
+        color: $kasared;
+        margin-top:-1rem;
+        padding: 1.5rem 0rem 0.5rem 1rem;
+        font-size: x-large;
+        border-radius: 1rem;
+    }
+}
